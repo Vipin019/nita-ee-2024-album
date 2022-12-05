@@ -2,7 +2,7 @@ import React,{useEffect, useState} from 'react'
 import './Main.css';
 import Player from './Player';
 
-alert("https://nita-ee2024-album-backend.onrender.com is not responding please wait.");
+// alert("https://nita-ee2024-album-backend.onrender.com is not responding please wait.");
 
 const Main = () => {
 
@@ -13,7 +13,7 @@ const Main = () => {
   }])
  
   useEffect(() =>{
-    fetch("https://nita-ee2024-album-backend.onrender.com/app/link").then(res=>{
+    fetch("https://creepy-cyan-wombat.cyclic.app/app/link").then(res=>{
       if(res.ok){
         return res.json();
       }
